@@ -1,17 +1,36 @@
+//import React from 'react';
+//import './App.css';
 
+//function App() {
+// return (<div>
+
+
+ //    <h1>Honza</h1>
+ // </div>);
+ 
+//}
+//export default App;
+
+// App.js
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-         TEXT
-        </h1>
+  const [text, setText] = useState('Honza');
 
-      </header>
+  const changeText = () => {
+    setText('Nový text!');
+    setText('Ahoj');
+    setText('Zdravím');
+  };
+
+  return (
+    <div>
+      <h1>{text}</h1>
+      <button onClick={changeText}>Změnit text</button>
     </div>
   );
 }
 
 export default App;
+

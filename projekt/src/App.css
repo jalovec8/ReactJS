@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -23,7 +23,27 @@
 
 .App-link {
   color: #113c48;
+} */
+
+/* App.css */
+div {
+  text-align: center;
+  padding: 20px;
 }
+
+h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+
 
 
 
